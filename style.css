@@ -3,12 +3,12 @@ body {
 }
 
 .btn {
+    display: inline-block;
+    width: max-content;
     height: max-content;
 }
 
 .btn-blue {
-    display: inline-block;
-    width: max-content;
     background: #2c60cc;
     color: white;
 }
@@ -76,7 +76,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.measurements-form {
+.my-form {
     display: flex;
     gap: 15px;
     align-items: flex-end;
