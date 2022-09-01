@@ -1,0 +1,84 @@
+body {
+    background: #f3d8ff;
+}
+
+.btn {
+    height: max-content;
+}
+
+.btn-blue {
+    display: inline-block;
+    width: max-content;
+    background: #2c60cc;
+    color: white;
+}
+
+.btn-purple {
+    background: #6711ad;
+    color: white;
+}
+
+.btn-blue:hover {
+    background: #4175e1;
+    color: white;
+}
+
+a {
+    color: #2c60cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin: 50px auto 0;
+    max-width: 1600px;
+    padding: 0 50px;
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding-left: 30px;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-row {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.consents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.login-form a {
+    font-weight: bold;
+}
+
+.login-titles {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login-titles h1 {
+    margin-bottom: 20px;
+}
+
+.measurements-form {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
