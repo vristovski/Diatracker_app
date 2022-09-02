@@ -1,5 +1,5 @@
 body {
-    background: #f3d8ff;
+    background: #fff;
 }
 
 .btn {
@@ -81,4 +81,80 @@ a:hover {
     gap: 15px;
     align-items: flex-end;
     margin-bottom: 30px;
+}
+
+.nav-pills .nav-link.active {
+    color: #2c60cc;
+    background: #b6c9f0;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link:hover {
+    text-decoration: none;
+    background: #b6c9f0;
+}
+
+.meal-container {
+    margin-bottom: 20px;
+    max-height: 54px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.meals-list h3 {
+    margin-bottom: 30px;
+}
+
+.meal-container.open {
+    max-height: 800px;
+}
+
+.meal-container .meal-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meal-container .meal-title:hover {
+    border-color: #b6c9f0;
+    color: #2c60cc;
+}
+
+.meal-container .meal-title h4 {
+    margin: 0;
+    line-height: 1;
+    font-size: 20px;
+}
+
+.meal-container .meal-title svg {
+    transition: all 0.5s ease;
+}
+
+.meal-container.open .meal-title svg {
+    transform: rotate(180deg);
+}
+
+.meal-container .meal-content {
+    padding: 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meal-container .meal-content .content-img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.meal-container .meal-content .content-img img {
+    width: 100%;
+    object-fit: contain;
+}
+.meal-container .meal-content .content-text {
+    flex: 1;
+    padding-left: 20px;
 }
