@@ -18,6 +18,7 @@
     ></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="script.js"></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="main">
@@ -96,7 +97,7 @@
       type="button"
       name="button"
       id="btn"
-      class="btn btn-purple"
+      class="btn btn-purple addbtn"
       value="Add"
       onclick="AddRowActivity()"
     />
@@ -112,6 +113,24 @@
     </tr>
   </table>
       </div>
+
+      <!-- Modal HTML -->
+      <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Done</h5>
+            </div>
+            <div class="modal-body">
+              <p>Your activities are added successfully.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" id="savebtn">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </div>
   </body>

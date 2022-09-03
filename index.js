@@ -7,3 +7,16 @@ function handleMealsList() {
         $(this).parent().toggleClass("open");
     });
 }
+
+$(document).ready(function(){
+    $(".addbtn").click(function(){
+        $("#myModal").modal('show');
+    });
+});
+
+
+$(document).ready(function(){
+    $("#savebtn").click(function(){
+        $("#myModal").modal('hide');
+    });
+});
